@@ -31,9 +31,10 @@ static const Rule rules[] = {
 	{ "Google-chrome",          "google-chrome",        NULL,       1 << 1,       0,           -1 },
   { "mpv",                    NULL,                   NULL,       0 << 3,       1,           -1 },
 	{ "Sxiv",                   NULL,                   NULL,       0 << 3,       1,           -1 },
+	{ "pinentry-qt",            NULL,                   NULL,       0 << 3,       1,           -1 },
 	{ "Anki",                   NULL,                   NULL,       0 << 3,       0,           -1 },
 	{ "Anki",                   NULL,                   "Add",      0 << 3,       1,           -1 },
-  { "Thunderbird",            NULL,                   NULL,       1 << 3,       0,           -1 },
+  { "thunderbird",            NULL,                   NULL,       1 << 3,       0,           -1 },
 };
 
 /* layout(s) */
